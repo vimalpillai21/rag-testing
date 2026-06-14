@@ -18,7 +18,7 @@ from pathlib import Path
 from dotenv import load_dotenv
 load_dotenv()  # take environment variables from .env
 
-st.title("Equity Research Tool")
+st.title("Equity/News Research Tool")
 st.sidebar.title("News Article URLs")
 
 urls = []
